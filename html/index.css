@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Quicksand, sans-serif;
+}
+
+.navbar {
+  background-color: #a91d3a;
+}
+
+.nav-link {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.nav-link.active {
+  color: black;
+}
+
+#carouselBtn,
+.view-more-btn {
+  border: 1px dashed red;
+  font-weight: 1000;
+}
+
+.cardsForAbout {
+  margin: 30px 0px 0px 0px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.titleOfHomeCard {
+  /* font-size: 50px;
+    font-style: oblique;
+    animation: fadeIn 4s ease-in-out;
+    color: #151515;
+     */
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-style: oblique;
+  font-weight: 600;
+  color: #c73659; /* Tomato color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 4s ease-in-out;
+  /* border: 5px solid black; */
+}
+
+/* Treat Section */
+.treat {
+  border: 1px dashed #c73659;
+}
+.form-section {
+  background-color: #c73659;
+  color: white;
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 15px;
+}
+.submit-btn {
+  background-color: white;
+  color: #c73659;
+  border: none;
+  padding: 10px 20px;
+}
+.submit-btn:hover {
+  background-color: #fff;
+  color: #c73659;
+  border: 1px solid #c73659;
+}
+
+/* Footer */
+.footer {
+  background-color: #151515;
+  color: #eeeeee;
+  padding: 40px 0;
+}
+.footer a {
+  color: #c73659;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fd7e14;
+}
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Gallery */
+.gallery-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #151515;
+  transition: transform 0.2s, border-color 0.2s;
+  border-radius: 20px;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  border-color: #c73659;
+}
+
+/* About Us  */
+.about-section {
+  padding: 40px 0;
+  background-color: #eeeeee;
+  margin: 50px 0px 50px 0px;
+  border-radius: 10px;
+}
+.about-section h3 {
+  margin-bottom: 20px;
+}
+.about-section p {
+  text-align: justify;
+}
+
+/* Contact Us */
+.contact-section {
+  padding: 40px 0;
+}
+.contact-form {
+  background-color: #c73659;
+  padding: 20px;
+  border-radius: 8px;
+  color: #eeeeee;
+}
+.contact-info {
+  background-color: #c73659;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  color: #eeeeee;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-info i {
+  margin-right: 10px;
+  color: #eeeeee;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* User Login */
+.userLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+.login-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+  margin-bottom: 20px;
+}
+.login-container .additional-links {
+  margin-top: 20px;
+  text-align: center;
+}
+.login-container .additional-links a {
+  margin: 0 10px;
+  color: #c73659;
+  text-decoration: none;
+}
+.login-container .additional-links a:hover {
+  text-decoration: underline;
+  color: #fd7e14;
+}
+
+/* User Registration */
+.userRegister {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.register-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.register-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Forget Password */
+.forgetPassword {
+    background-color: #eeeeee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+
+.forgot-password-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+.forgot-password-container h2 {
+    margin-bottom: 20px;
+}
+.no-underline {
+    text-decoration: none;
+    color: #c73659;
+}
+.no-underline:hover {
+    text-decoration: underline;
+    color: #fd7e14;
+}
+
+/* Student Profile */
+.profile-image {
+    max-width: 400px;
+    height: 600px;
+}
+.student-info {
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.student-info h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.student-info p {
+    margin-bottom: 20px;
+}
